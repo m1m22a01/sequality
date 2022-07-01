@@ -5,7 +5,7 @@ public class Calculate {
     return x + y;
   }
 
-  // xとyの数字の合計と平均を返す関数
+  // xとyの数字の合計と平均を返すメソッド
   public String printSum(int x, int y) {
     int ans = sum(x, y);
     double ave = ans / 2;
@@ -13,7 +13,7 @@ public class Calculate {
     return "Sum of " + x + " and " + y + " is " + ans + ". Average is " + ave + ".";
   }
 
-  //StartからEndまでの数字の合計と平均を返す関数
+  //StartからEndまでの数字の合計と平均を返すメソッド
   public String printAllSum(int start, int end) {
     int ans = 0;
     int count = 0;
@@ -36,7 +36,7 @@ public class Calculate {
     return "Sum of " + start + " to " + end + " is " + ans + ". Average is " + ave + ".";
   }
 
-  // StartからEndまでの数字において奇数・偶数の各合計を返す関数
+  // StartからEndまでの数字において奇数・偶数の各合計を返すメソッド
   public String printOdd_EvenSum(int start, int end) {
     int odd_ans = 0, even_ans = 0;
 
